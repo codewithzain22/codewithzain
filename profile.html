@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain Profile</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightgray;
+        }
+
+        header,
+        #ul-container-fyp,
+         nav {
+            display: flex;
+            gap: 15px;
+         }
+
+        #header-container-fyp,
+        #nav-container-fyp,
+        #ul-container-fyp,
+        #li-fyp,h1,
+        #anchor-fyp {
+            list-style-type: none;
+            text-decoration: none;
+            background-color: rgb(53, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 30px;
+        }
+
+        #button-container-fyp {
+            background-color: rgb(26, 167, 202);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            transition: all ease 1s;
+            border-radius: 30px;
+            border: 1px solid rgb(26, 167, 202);
+            font-size: 16px;
+        }
+
+        #button-container-fyp:hover {
+            background-color: rgb(41, 40, 63);
+            color: rgb(255, 255, 255);
+
+        }
+
+    </style>
+</head>
+<body>
+     <header id="header-container-fyp"><a href="index.html">
+            <h1>Code With Zain</h1>
+        </a>
+        <nav id="nav-container-fyp">
+            <ul id="ul-container-fyp">
+                <li id="li-fyp"><a id="anchor-fyp" href="index.html">Home</a></li>
+                <li id="li-fyp"> <a id="anchor-fyp" href="aboutus.html">About Us</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="list.html">List</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="business.html">Business Card</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="Father-family.html">Father Family</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="mother-family.html">Mother Family</a></li>
+
+            </ul>
+            <button id="button-container-fyp" onclick="window.location.href='profile.html'">View Profile</button>
+
+        </nav>
+
+    </header>
+
+</body>
+</html>

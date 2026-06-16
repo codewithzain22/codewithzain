@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color:lightgray;
+        }
+
+        #hh1 {
+            color: blue;
+            background-color: lightgray;
+        }
+
+        h2 {
+            color: green;
+            background-color: rgb(228, 228, 153);
+        }
+
+        p {
+            color: black;
+            background-color: lightcyan;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(21, 49, 58);
+        }
+        tbody tr:nth-child(even) {
+            background-color: rgb(139, 139, 135);
+        }
+         tbody tr:nth-child(odd) {
+            background-color: rgb(2, 70, 70);
+        }
+        table{
+            color: rgb(255, 255, 255);
+        }
+         header,
+        ul,
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        #header-container-fyp,
+        #nav-container-fyp,
+        ul,
+        li,
+        a {
+            list-style-type: none;
+            text-decoration: none;
+            background-color: rgb(53, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 30px;
+        }
+
+        button {
+            background-color: rgb(26, 167, 202);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            transition: all ease 1s;
+            border-radius: 30px;
+            border: 1px solid rgb(26, 167, 202);
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: rgb(41, 40, 63);
+            color: rgb(255, 255, 255);
+
+        }
+    </style>
+</head>
+
+<body>
+     <header id="header-container-fyp"><a href="index.html">
+            <h1>Code With Zain</h1>
+        </a>
+        <nav id="nav-container-fyp">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="business.html">Business Card</a></li>
+                <li><a href="Father-family.html">Father Family</a></li>
+                <li><a href="mother-family.html">Mother Family</a></li>
+
+            </ul>
+             <button id="button-container-fyp" onclick="window.location.href='profile.html'">View Profile</button>
+        </nav>
+    </header>
+    <h1 id="hh1">About Us</h1>
+    <p>We are a team of passionate web developers dedicated to creating amazing websites and applications. Our mission
+        is to deliver high-quality, user-friendly, and innovative solutions to our clients. With a focus on creativity
+        and functionality, we strive to exceed expectations and bring ideas to life.</p>
+    <h2>&copy;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entities</h2>
+    <h1>Family Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Relationship</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Muhammad Rizwan</td>
+                <td>35</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>Mazloom Akthar</td>
+                <td>35</td>
+                <td>Mother</td>
+            </tr>
+            <tr>
+                <td>Hassan Ali</td>
+                <td>12</td>
+                <td>Brother</td>
+            </tr>
+            <tr>
+                <td>Muhammad Hussain</td>
+                <td>17</td>
+                <td>Brother</td>
+            </tr>
+            <tr>
+                <td>Hadia Rizwan</td>
+                <td>15</td>
+                <td>Sister</td>
+            </tr>
+            <tr>
+                <td>Muhammad Zain</td>
+                <td>19</td>
+                <td>Me</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

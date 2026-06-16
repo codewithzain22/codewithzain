@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightgray;
+        }
+
+        header,
+        #ul-container-fyp,
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        #header-container-fyp,
+        #nav-container-fyp,
+        #ul-container-fyp,
+        #li-fyp,
+        h1,
+        #anchor-fyp {
+            list-style-type: none;
+            text-decoration: none;
+            background-color: rgb(53, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 30px;
+        }
+
+        #button-container-fyp {
+            background-color: rgb(26, 167, 202);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            transition: all ease 1s;
+            border-radius: 30px;
+            border: 1px solid rgb(26, 167, 202);
+            font-size: 16px;
+        }
+
+        #button-container-fyp:hover {
+            background-color: rgb(41, 40, 63);
+            color: rgb(255, 255, 255);
+
+        }
+
+        #heading-fyp {
+            color: rgb(45, 155, 228);
+            background-color: lightgray;
+            text-align: center;
+            font-size: 48px;
+            border: 2px solid rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(8, 166, 187);
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        h4 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+        }
+
+        p {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            line-height: 1.5;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        #button2-fyp {
+            background-color: rgb(26, 167, 202);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            transition: all ease 1s;
+            border-radius: 30px;
+            border: 1px solid rgb(26, 167, 202);
+            font-size: 16px;
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+        }
+        #button2-fyp:hover {
+            background-color: rgb(41, 40, 63);
+            color: rgb(255, 255, 255);
+
+        }
+        #ul2-fyp {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border: 1px solid rgb(0, 0, 0);
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+            border-radius: 30px;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(53, 51, 51);
+            color: rgb(255, 255, 255);
+            border-radius: 30px;
+        }
+        fieldset {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 30px;
+        }
+        legend {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        h3 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 28px;
+        }
+        a{
+            list-style-type: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header-container-fyp"><a href="index.html">
+            <h1>Code With Zain</h1>
+        </a>
+        <nav id="nav-container-fyp">
+            <ul id="ul-container-fyp">
+                <li id="li-fyp"><a id="anchor-fyp" href="index.html">Home</a></li>
+                <li id="li-fyp"> <a id="anchor-fyp" href="aboutus.html">About Us</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="list.html">List</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="business.html">Business Card</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="Father-family.html">Father Family</a></li>
+                <li id="li-fyp"><a id="anchor-fyp" href="mother-family.html">Mother Family</a></li>
+
+            </ul>
+             <button id="button-container-fyp" onclick="window.location.href='profile.html'">View Profile</button>
+
+        </nav>
+
+    </header>
+
+    <!-- Business Card -->
+    <h1 id="heading-fyp">Business Card</h1>
+    <img title="Zain" src="/img/IMG-20260512-WA0028 (1).jpg" alt="Profile Picture" width="200" height="200">
+    <h2>Muhammad zain</h2>
+    <h4>Web Developer & <em>Designer</em></h4>
+    <p>My name is Muhammad Zain. And I am a passionate web developer.And I love creating beautiful and functional
+        websites.With my skills in HTML, CSS, and JavaScript, I strive to create engaging user experiences.</p>
+    <button id="button2-fyp" onclick="window.open('https://www.linkedin.com/in/muhammad-zain/', '_blank')">Visit LinkedIn</button>
+    <h4>Skills</h4>
+    <ul id="ul2-fyp">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h3>Ask a Question</h3>
+    <form action="https://www.w3schools.com/action_page.php" method="GET" target="_blank" nonvalidate>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="First_name"> First Name:</label>
+            <br>
+            <input type="text" id="First_name" name="First_name" required>
+            <br>
+            <label for="Last_name">Last Name:</label>
+            <br>
+            <input type="text" id="Last_name" name="Last_name" required>
+            <br>
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <br>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <br>
+            <label for="Technolgy" id="technology_label">Technology</label>
+            <br>
+            <select id="Technology" name="Technology" size="4" multiple required>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript" selected>JavaScript</option>
+            </select>
+            <br>
+            <input type="text" id="location" name="location" list="locationpossible" placeholder="Select your location"
+                required>
+            <datalist id="locationpossible">
+                <option value="Pakistan">
+                <option value="India">
+                <option value="USA">
+                <option value="UK">
+            </datalist>
+            <br>
+            <label for="questionBox">Your Question:</label>
+            <br>
+            <textarea id="questionBox" name="questionBox" rows="4" cols="50" required></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <br>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother's Family Data</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #hh1 {
+            color: rgb(4, 120, 197);
+            background-color: lightgray;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            background-color: rgb(63, 146, 146);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1d1d1d;
+            color: white;
+        }
+
+        /* input {
+            color: #fffdfd;
+            background-color: #1d1d1d;
+            padding: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 1px solid #000000;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input:hover {
+            background-color: rgb(20, 135, 150);
+            color: white;
+            transition: all ease 1s;
+        } */
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 10vh;
+            /* center on full page, adjust as needed */
+        }
+
+        input[type="submit"] {
+            color: #ffffff;
+            background: linear-gradient(135deg, #1d1d1d, #2a2a2a);
+            padding: 14px 32px;
+            border: 1px solid #333;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.07);
+            transition: all 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(135deg, rgb(20, 135, 150), rgb(15, 105, 118));
+            border-color: rgb(20, 135, 150);
+            box-shadow: 0 6px 20px rgba(20, 135, 150, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+            /* subtle lift effect */
+            color: #ffffff;
+        }
+
+        input[type="submit"]:active {
+            transform: translateY(0px);
+            /* press down effect */
+            box-shadow: 0 2px 8px rgba(20, 135, 150, 0.3);
+        }
+
+        #copyright {
+            text-align: center;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(63, 146, 146);
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+         header,
+        ul,
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        #header-container-fyp,
+        #nav-container-fyp,
+        ul,
+        li,
+        a {
+            list-style-type: none;
+            text-decoration: none;
+            background-color: rgb(53, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 30px;
+        }
+
+        button {
+            background-color: rgb(26, 167, 202);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            transition: all ease 1s;
+            border-radius: 30px;
+            border: 1px solid rgb(26, 167, 202);
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: rgb(41, 40, 63);
+            color: rgb(255, 255, 255);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header-container-fyp"><a href="index.html">
+            <h1>Code With Zain</h1>
+        </a>
+        <nav id="nav-container-fyp">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="business.html">Business Card</a></li>
+                <li><a href="Father-family.html">Father Family</a></li>
+                <li><a href="mother-family.html">Mother Family</a></li>
+
+            </ul>
+            <button id="button-container-fyp" href="profile.html">View Profile</button>
+        </nav>
+    </header>
+    <h1 id="hh1">Mother's Side Family Members</h1>
+    <p>Here is a table containing information about our family members:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Relationship</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Hajji Marban</td>
+                <td>65</td>
+                <td>Grand Father</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Zakiya Baggam</td>
+                <td>70</td>
+                <td>Grand Mother</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Muhammad Rizwan</td>
+                <td>42</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mazloom Akthar</td>
+                <td>42</td>
+                <td>Mother</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Muhammad Zafran</td>
+                <td>40</td>
+                <td>Uncle / Chachu</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Adeala Baggam</td>
+                <td>35</td>
+                <td>Aunty / Chachi</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Muhammad Kamran</td>
+                <td>38</td>
+                <td>Uncle / Chachu</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Sidra Kamran</td>
+                <td>29</td>
+                <td>Aunty / Chachi</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Umar Shahzed</td>
+                <td>35</td>
+                <td>Uncle / Chachu</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Sidra Shahzed</td>
+                <td>27</td>
+                <td>Aunty / Chachi</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Muhammad Akram</td>
+                <td>45</td>
+                <td>Uncle / Phopra</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Yasmine</td>
+                <td>45</td>
+                <td>Aunty / Phopo</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Muhammad Aslam</td>
+                <td>60</td>
+                <td>Uncle / Phopra</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Robina</td>
+                <td>55</td>
+                <td>Aunty / Phopo</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Asim Shekie</td>
+                <td>45</td>
+                <td>Uncle / Phopra</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Eshrat</td>
+                <td>35</td>
+                <td>Aunty / Phopo</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>18</td>
+
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Father</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div class="btn-container">
+        <a href="/Father-family.html"><input type="submit" value="Father's Family Member"></a>
+    </div>
+    <p id="copyright">The website provides information about the family members on the father's side.All &copy;copyright
+        information is reserved.</p>
+</body>
+
+</html>
